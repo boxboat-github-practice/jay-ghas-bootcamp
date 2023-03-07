@@ -7,6 +7,19 @@ updates:
     # Check the npm registry for updates every day (weekdays)
     schedule:
       interval: "daily"
+      
+  - package-ecosystem: "pip"
+    directory: "/authn-service"
+    schedule:
+      interval: "daily"
+    labels:
+      - "triage-required"
+    assignees:
+      - "dungeonstechlead"
+    reviewers:
+      - "dragonsengineer"
+    commit-message:
+      prefix: "pip"
 
   # Enable version updates for Docker
   - package-ecosystem: "docker"
