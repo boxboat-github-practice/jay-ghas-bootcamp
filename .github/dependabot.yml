@@ -15,9 +15,9 @@ updates:
     labels:
       - "triage-required"
     assignees:
-      - "dungeonstechlead"
+      - "jay-rodriguez-bb"
     reviewers:
-      - "dragonsengineer"
+      - "jay-rodriguez-bb"
     commit-message:
       prefix: "pip"
 
